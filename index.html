@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stella Azzurra</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Pagina di accesso -->
+  <div id="login-page">
+    <h1>Benvenuto su <span class="logo">STELLA AZZURRA</span></h1>
+    <input type="password" id="password" placeholder="Inserisci la password">
+    <button onclick="checkPassword()">Accedi</button>
+  </div>
+
+  <!-- Homepage (visibile solo dopo l'accesso) -->
+  <div id="homepage" style="display: none;">
+    <header>
+      <h1><span class="logo">STELLA AZZURRA</span></h1>
+    </header>
+    <main>
+      <section>
+        <h2>UNDER 16</h2>
+        <div class="video-grid" id="under-16"></div>
+      </section>
+      <section>
+        <h2>UNDER 18</h2>
+        <div class="video-grid" id="under-18"></div>
+      </section>
+      <section>
+        <h2>PRIMA DIVISIONE</h2>
+        <div class="video-grid" id="prima-divisione"></div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Suono di avvio -->
+  <audio id="startup-sound" src="startup-sound.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
