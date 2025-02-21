@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+#login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000;
+}
+
+#login-page h1 {
+  font-size: 3rem;
+  color: yellow;
+  text-shadow: 2px 2px blue;
+}
+
+#login-page input {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+#login-page button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: yellow;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#homepage {
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: yellow;
+  text-shadow: 2px 2px blue;
+  text-align: center;
+}
+
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.video-grid iframe {
+  width: 300px;
+  height: 200px;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
